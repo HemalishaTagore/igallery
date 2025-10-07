@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(3, 95, 118);
+    text-align: center;
+    margin-top: 50px;
+}
+body h1{
+    color: #ebcd95
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    justify-content: center;;
+}
+
+.galleryitem {
+    cursor: pointer;
+    text-align: center;
+    width: 180px;
+    padding: 20px;
+}
+
+.galleryitem img {
+    width: 230px;
+    height: 300px;
+}
+
+.copyrights{
+    width: 1510px;
+    height: 20px;
+    text-align: center;
+    top: 130px;
+    left: -20px;
+    position: relative;
+}
